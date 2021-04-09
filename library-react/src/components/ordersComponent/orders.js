@@ -1,8 +1,13 @@
 import React from "react";
+import './orders.css';
 
 class OrdersComponent extends React.Component {
   render() {
-    return (<h1>orders</h1>);
+    return (
+      <React.Fragment>
+        <h1 className="infopaginaorders">Mis pedidos</h1>
+      </React.Fragment>
+    );
   }
 }
 

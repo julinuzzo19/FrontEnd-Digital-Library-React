@@ -7,12 +7,15 @@ import Orders from "./components/ordersComponent/orders";
 import Error from "./components/errorComponent/error";
 import HeaderComponent from "./components/headerComponent/header";
 import FooterComponent from "./components/footerComponent/footer";
+import NavbarComponent from "./components/navbarComponent/navbar";
 
 class Router extends Component {
   render() {
     return (
       <BrowserRouter>
         <HeaderComponent></HeaderComponent>
+
+        <NavbarComponent></NavbarComponent>
 
         <Switch>
           <Route exact path="/" component={Home} />
