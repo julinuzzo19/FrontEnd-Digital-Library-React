@@ -52,7 +52,7 @@ export default class ListarLibros extends Component {
     
         var alquiler = new Alquiler(1, isbn, "", fecha);
         var alquilerjson = JSON.stringify(alquiler);
-        console.log(alquilerjson)
+
         this.postAlquiler(alquilerjson);
     }
     
@@ -60,8 +60,7 @@ export default class ListarLibros extends Component {
     render() {
         
         var libro=this.props.libros;
-        
-        
+            
         return (
             <div>
                 <article className="article-item">
