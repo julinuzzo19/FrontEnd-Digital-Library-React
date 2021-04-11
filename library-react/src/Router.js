@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //Importar componentes
-import Home from "./components/homeComponent/home";
-import Orders from "./components/ordersComponent/orders";
+import Home from "./components/homeComponent/home.jsx";
+import Orders from "./components/ordersComponent/orders.jsx";
 import Error from "./components/errorComponent/error";
 import HeaderComponent from "./components/headerComponent/header";
 import FooterComponent from "./components/footerComponent/footer";

@@ -106,11 +106,11 @@ class HomeComponent extends React.Component {
        
             <div className="col-8">
               <div className="articles" id="articles">
-                {this.state.listado.map((libro, i) => {if (libro.stock!=0) {
-                  return <ListarLibros 
+                {this.state.listado.map((libro) => {if (libro.stock!==0) {
+                  return (<ListarLibros 
                   libros={libro} 
-                  key={i}               
-                   />;
+                  key={libro.isbn}               
+                   />);
                 }
                   
                 })}
