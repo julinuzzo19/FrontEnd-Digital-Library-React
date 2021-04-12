@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import logo from "../../assets/images/searchbookimg.png";
-import ListarLibros from "../listarLibrosComponent/listarLibros";
+import ListarLibros from "../listarLibrosComponent/listarLibros.jsx";
 import Global from '../../models/Global';
 
 class HomeComponent extends React.Component {

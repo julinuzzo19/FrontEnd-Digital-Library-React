@@ -1,23 +1,26 @@
 #imgheader {
-    width: 70vw;
-    height: 30vh;
-  }
-  
-  .titlecliente {
-    font-size: 150%;
-    font-family: cursive;
-    color: black;
-  }
-  
-  /*              Estilo de botones          */
-  .btn {
-    margin-top: 12px;
-  }
-  .btn-info,
-  .btn-danger {
-    background-color: chocolate !important;
-    border: chocolate solid 1px !important;
-    color: black !important;
-    font-weight: bold !important;
-  }
-  
+  width: 70vw;
+  height: 30vh;
+}
+
+.titlecliente {
+  font-size: 150%;
+  font-family: cursive;
+  color: black;
+}
+.clienteName {
+  font-weight: 800;
+  margin-left: 75px;
+}
+
+/*              Estilo de botones          */
+.btn {
+  margin-top: 12px;
+}
+.btn-info,
+.btn-danger {
+  background-color: chocolate !important;
+  border: chocolate solid 1px !important;
+  color: black !important;
+  font-weight: bold !important;
+}

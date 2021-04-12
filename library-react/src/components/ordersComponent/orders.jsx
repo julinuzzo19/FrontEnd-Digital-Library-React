@@ -1,7 +1,7 @@
 import React from "react";
 import "./orders.css";
 import Global from "../../models/Global";
-import ListarOrders from "../listarOrders/ListarOrders.js";
+import ListarOrders from "../listarOrders/ListarOrders.jsx";
 
 
 class OrdersComponent extends React.Component {
